@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 
 function Project() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      {/* <h1>Project</h1> */}
+      <Footer/>
       </div>
   )
 }
