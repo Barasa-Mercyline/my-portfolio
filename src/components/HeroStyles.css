@@ -42,7 +42,9 @@
     text-transform: uppercase;
 }
 .content .button{
-   margin: 1rem 0.2rem;
+   margin: 1rem auto;
+   display: flex;
+   gap: 10px;
 }
 
 @media screen and (max-width: 640px) {
