@@ -1,10 +1,9 @@
 import "./WorkCardStyles.css"
 
 import React from 'react'
-import fieldImg from "../assets/field4.jpg";
 import { NavLink } from "react-router-dom";
 
-const WorkCard = () => {
+const WorkCard = (props) => {
   return (
     <div className="project-card">
             <img className="field-img"src={props.imgsrc} alt="fieldImg" />
@@ -13,10 +12,10 @@ const WorkCard = () => {
                 <p>{props.text}</p>
                 <div className="pro-btns">
                     <button className="btn">
-                   <NavLink to="url.com"  > {props.view}</NavLink>
+                   <NavLink to={props.view}  >View</NavLink>
                     </button>
                     <button className="btn">
-                   <NavLink to="url.com" >{props.source}</NavLink>
+                   <NavLink to={props.source} >Source</NavLink>
                     </button>
                 </div>
             </div>
