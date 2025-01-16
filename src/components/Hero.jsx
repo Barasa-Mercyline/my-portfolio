@@ -18,7 +18,6 @@ function Hero() {
             PROJECTS
           </Link>
           </button>
-          
           <button>
           <Link to="/contact" >
             CONTACT

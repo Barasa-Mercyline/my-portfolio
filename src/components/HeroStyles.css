@@ -31,6 +31,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
    text-align: center;
+   align-items: center;
 }
 .hero .content h1{
     padding: (0.6rem 0 1.5rem);
@@ -42,9 +43,10 @@
     text-transform: uppercase;
 }
 .content .button{
-   margin: 1rem auto;
+   margin: 1rem 6rem;
    display: flex;
    gap: 10px;
+   align-items: center;
 }
 
 @media screen and (max-width: 640px) {
